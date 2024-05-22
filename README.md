@@ -1,16 +1,13 @@
 # bloc_example
 
-A new Flutter project.
+Flutter與Bloc的簡易架構練習，從註解邊學習
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+範例程式路徑為： bloc_example/lib/ 下。
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+main.dart為起始程式。
+bloc/ 為Bloc的主要程式
+bloc/counter_bloc.dart 主要服務為，轉換bloc event至bloc state
+bloc/counter_event.dart Bloc關於counter的event定義
+bloc/counter_state.dart Bloc關於counter的state定義
